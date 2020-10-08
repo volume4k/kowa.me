@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap')
+$white: #FDFFF7
+$primary: #30C5FF
+$strong: #63C132
+$dark: #0B0A07
+*
+  margin: 0
+  padding: 0
+  overflow-x: hidden
+  font-family: 'Roboto Mono', monospace
+  text-rendering: optimizeLegibility!important
+div.body-wrapper
+  width: 100vw
+  height: 100vh
+  display: flex
+  flex-direction: column
+  div.header-wrapper
+    background: $dark
+    width: 100%
+    box-sizing: border-box
+    padding: 0 10vw
+    div.header
+      display: flex
+      max-width: 1560px
+      width: 80vw
+      margin: 64px auto
+      h1
+        color: $white
+        margin: 0 auto
+        strong
+          color: $strong
+  div.section-1
+    width: 100%
+    display: flex
+    box-sizing: border-box
+    padding: 64px 10vw
+    background: $white
+    div.personal-details
+      display: flex
+      margin: 0 auto
+      flex-direction: row
+      width: 80vw
+      max-width: 1560px
+      div.column-1
+        width: 40vw
+        display: flex
+        flex-direction: column
+        text-align: right
+        h1
+          margin-right: 24px
+          opacity: 0.64
+          strong
+            color: $strong
+      div.column-2
+        width: 40vw
+        display: flex
+        flex-direction: column
+        text-align: left
+        h1
+          margin-left: 24px
+          a
+            text-decoration: none
+            color: inherit
