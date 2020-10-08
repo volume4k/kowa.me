@@ -93,7 +93,7 @@ div.body-wrapper div.section-2 div.education div.column-1 {
   text-align: right;
   background: #0B0A07;
   box-sizing: border-box;
-  padding: 12px 24px;
+  padding: 16px 24px;
 }
 div.body-wrapper div.section-2 div.education div.column-1 h1 {
   text-align: right;
@@ -105,7 +105,7 @@ div.body-wrapper div.section-2 div.education div.column-2 {
   flex-direction: column;
   text-align: left;
   box-sizing: border-box;
-  padding: 12px 24px;
+  padding: 16px 24px;
   overflow-x: visible;
 }
 div.body-wrapper div.section-2 div.education div.column-2 h1 {
