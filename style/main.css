@@ -75,7 +75,7 @@ div.body-wrapper div.section-2 {
   width: 100%;
   display: flex;
   box-sizing: border-box;
-  padding: 64px 10vw;
+  padding: 0 10vw 64px;
   background: #FDFFF7;
 }
 div.body-wrapper div.section-2 div.education {
@@ -98,6 +98,9 @@ div.body-wrapper div.section-2 div.education div.column-1 {
 div.body-wrapper div.section-2 div.education div.column-1 h1 {
   text-align: right;
   color: #FDFFF7;
+}
+div.body-wrapper div.section-2 div.education div.column-1 h1 strong {
+  color: #63C132;
 }
 div.body-wrapper div.section-2 div.education div.column-2 {
   width: 40vw;
@@ -149,6 +152,93 @@ div.body-wrapper div.section-2 div.education div.column-2 div.field {
   overflow-x: visible;
 }
 div.body-wrapper div.section-2 div.education div.column-2 div.field:last-child {
+  margin-bottom: 0;
+}
+div.body-wrapper div.section-3 {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 10vw 64px;
+  background: #FDFFF7;
+}
+div.body-wrapper div.section-3 div.experience {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 80vw;
+  max-width: 1560px;
+  overflow-x: visible;
+}
+div.body-wrapper div.section-3 div.experience div.column-2 {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  background: #0B0A07;
+  box-sizing: border-box;
+  padding: 16px 24px;
+}
+div.body-wrapper div.section-3 div.experience div.column-2 h1 {
+  text-align: left;
+  color: #FDFFF7;
+}
+div.body-wrapper div.section-3 div.experience div.column-2 h1 strong {
+  color: #63C132;
+}
+div.body-wrapper div.section-3 div.experience div.column-1 {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 16px 24px;
+  overflow-x: visible;
+}
+div.body-wrapper div.section-3 div.experience div.column-1 h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.19px;
+  text-align: right;
+}
+div.body-wrapper div.section-3 div.experience div.column-1 h2 {
+  line-height: 28px;
+  font-size: 18px;
+  opacity: 0.3;
+  text-align: right;
+}
+div.body-wrapper div.section-3 div.experience div.column-1 h3 {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: right;
+}
+div.body-wrapper div.section-3 div.experience div.column-1 h3.qualification {
+  right: unset;
+  left: 0;
+}
+div.body-wrapper div.section-3 div.experience div.column-1 p {
+  font-size: 14px;
+  opacity: 0.8;
+  margin: 12px 0;
+  text-align: right;
+}
+div.body-wrapper div.section-3 div.experience div.column-1 br {
+  margin: 10px 0;
+  display: block;
+}
+div.body-wrapper div.section-3 div.experience div.column-1 div.field {
+  border-top: 1px solid black;
+  box-sizing: border-box;
+  padding: 6px 0 0;
+  width: 28vw;
+  max-width: 650px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  position: relative;
+  overflow-x: visible;
+}
+div.body-wrapper div.section-3 div.experience div.column-1 div.field:last-child {
   margin-bottom: 0;
 }
 div.body-wrapper div.footer {
