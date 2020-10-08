@@ -84,6 +84,7 @@ div.body-wrapper div.section-2 div.education {
   margin: 0 auto;
   width: 80vw;
   max-width: 1560px;
+  overflow-x: visible;
 }
 div.body-wrapper div.section-2 div.education div.column-1 {
   width: 40vw;
@@ -105,6 +106,7 @@ div.body-wrapper div.section-2 div.education div.column-2 {
   text-align: left;
   box-sizing: border-box;
   padding: 12px 24px;
+  overflow-x: visible;
 }
 div.body-wrapper div.section-2 div.education div.column-2 h1 {
   font-size: 26px;
@@ -115,6 +117,17 @@ div.body-wrapper div.section-2 div.education div.column-2 h2 {
   line-height: 28px;
   font-size: 18px;
   opacity: 0.3;
+}
+div.body-wrapper div.section-2 div.education div.column-2 h3 {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  font-size: 12px;
+  font-weight: 300;
+}
+div.body-wrapper div.section-2 div.education div.column-2 h3.qualification {
+  right: unset;
+  left: 0;
 }
 div.body-wrapper div.section-2 div.education div.column-2 p {
   font-size: 14px;
@@ -133,6 +146,10 @@ div.body-wrapper div.section-2 div.education div.column-2 div.field {
   max-width: 650px;
   margin-bottom: 32px;
   position: relative;
+  overflow-x: visible;
+}
+div.body-wrapper div.section-2 div.education div.column-2 div.field:last-child {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
