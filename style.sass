@@ -1,0 +1,94 @@
+@import "variables"
+*
+  margin: 0
+  padding: 0
+  text-rendering: optimizeLegibility
+  font-family: $inter
+body
+  background: $blue1
+div.body-wrapper
+  overflow-x: hidden
+  box-sizing: border-box
+  padding: 0 10vw
+  display: flex
+  height: 100vh
+  +respond-to(mobile)
+    padding: 36px 5vw
+    height: unset
+div.body
+  background: $yellow
+  width: 100%
+  margin: auto
+  max-width: 880px
+  display: flex
+  flex-direction: column
+  box-sizing: border-box
+  padding: 60px 120px 32px
+  border-radius: 34px
+  box-shadow: 0 0 50px rgba(0, 0, 0, .3)
+  +respond-to(tablet)
+    padding: 40px 80px 32px
+  +respond-to(mobile)
+    padding: 30px 24px
+    border-radius: 24px
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3)
+  h2
+    font-family: $poppins
+    &.name
+      margin-bottom: 24px
+      font-size: 36px
+      letter-spacing: .41px
+      font-weight: 900
+      color: $blue2
+      +respond-to(mobile)
+        font-size: 32px
+        line-height: 36px
+        letter-spacing: -.15px
+      span
+        font-family: inherit
+        color: $blue3
+  h1
+    color: $blue1
+    +respond-to(mobile)
+      font-size: 32px
+  p
+    font-size: 20px
+    font-weight: 500
+    color: $blue2
+    margin: 28px 0 0
+    line-height: 30px
+
+
+    &.legal
+      font-size: 16px
+      +respond-to(mobile)
+        margin: 0
+    span
+      font-weight: 600
+      color: $blue1
+    a
+      text-decoration: none
+      color: $blue3
+      &:hover
+        cursor: crosshair
+  div.divider
+    display: flex
+    background: black
+    width: 100%
+    height: 8px
+    margin: 28px 0 0
+  div.divider-thin
+    display: flex
+    background: $blue1
+    width: 100%
+    height: 2px
+    margin: 24px 0 0
+    +respond-to(mobile)
+      margin: 24px 0 16px
+  div.legal
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    +respond-to(mobile)
+      flex-direction: column
+      justify-content: flex-start
